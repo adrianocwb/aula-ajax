@@ -1,0 +1,40 @@
+<html>    
+    <head>    
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">    
+		<script type="text/javascript" src="calculadora1.js">
+		</script>
+		<title>Calculadora</title>    
+    
+		<form id="frm"  >
+			<div id="container">
+			   <div id="topo"> 
+				  <h1>Calculadora</h1>
+			   </div>
+			   <div id="menu">
+			   </div>
+			   <div id="left">
+				  <div class="bloco">
+					 <span>Nome:</span>
+					 <input type="text" name="txtnome" placeholder="Introduza o seu nome">
+					 <input id="enviar" type="button" value="Enviar" onClick="ola('Ola')">
+				  </div>
+				  <div class="bloco1">
+					 <span>Introduza os numeros:</span><br>
+					 <input type="text" size="2" id="n1" placeholder="n1"><br>
+					 <input type="text" size="2"  id="n2" placeholder="n2"><br><br>
+					 <input type="button" value="+" onClick="calc(this)">
+					 <input type="button" value="-" onClick="calc(this)">
+					 <input type="button" value="*" onClick="calc(this)">
+					 <input type="button" value="/" onClick="calc(this)">
+					 <br><br>
+					 <input type="button" value="Limpar" onClick="limpar()"/>
+					 <input type="button" value="Enviar" onClick="ola('Ola')">
+				  </div>
+			   </div>
+			   
+			   <div id="bottom">
+			   </div>
+			</div>
+		 </form> 
+    </body>    
+</html> 
